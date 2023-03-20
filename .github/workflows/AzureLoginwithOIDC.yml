@@ -12,9 +12,9 @@ jobs:
     - name: 'Az CLI login'
       uses: azure/login@v1
       with:
-          client-id: ${{ secrets.AZURE_CLIENT_ID }}
-          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
-          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+          client-id: 6eeb2dae-425a-42c4-907d-ba1513ccb742
+          tenant-id: 0c718a8a-0736-484f-832f-a66e2db6775d
+          subscription-id: 4ce1728e-be08-4e01-8d0b-3cee82c61db6
   
     - name: 'Run Azure CLI commands'
       run: |
