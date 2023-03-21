@@ -1,5 +1,6 @@
 on: [push]
 
+
 name: Run Azure Login with Service Principal
 
 jobs:
